@@ -1,0 +1,15 @@
+var year=prompt("Please input the year you hope to check:");
+
+function isLeap(year){
+  if (year % 4 === 0 && year % 100 === 0 && year % 400 === 0) {
+    alert("That is a leap year");
+  }
+  if (year % 4 === 0 && year % 100 !== 0){
+    alert("That is a leap year");
+  } else {
+    alert("That is not a leap year");
+  }
+
+}
+
+isLeap(year);
